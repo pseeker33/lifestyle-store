@@ -91,11 +91,13 @@ document.addEventListener('DOMContentLoaded', () => {
    ```bash
    git clone https://github.com/your-username/ecommerce-project.git
    ```
-2. Open the project directory in your preferred code editor.
-3. Serve the project locally:
+2. Open the project directory in Visual Studio Code:
    ```bash
-   Open index.html in your browser using a local server.
+   code ecommerce-project
    ```
+3. Install the Live Server extension in VS Code.
+4. Right-click on `index.html` in the file explorer and select **Open with Live Server**.
+5. The project will automatically open in your default browser at `http://127.0.0.1:5500/` or a similar URL.
 
 ## Contributing
 
@@ -104,4 +106,7 @@ Contributions are welcome! Feel free to submit a pull request or create an issue
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+
 
