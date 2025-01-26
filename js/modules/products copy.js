@@ -2,9 +2,6 @@ import { createProductCard } from "../components/templates.js";
 
 let allProducts = [];
 
-const PRODUCTS_PER_PAGE = 6;
-let currentPage = 1;
-
 export async function initProducts() {
   try {
     const response = await fetch("products.json");
@@ -32,55 +29,14 @@ function renderAllProducts(products) {
   const productsContainer = document.getElementById("products-container");
   
   if (productsContainer) {
-    // Calcular productos para la página actual
-    const startIndex = (currentPage - 1) * PRODUCTS_PER_PAGE;
-    const endIndex = startIndex + PRODUCTS_PER_PAGE;
-    const paginatedProducts = products.slice(startIndex, endIndex);
-
     console.log("Rendering products:", products.length); // Debug log
-
-    productsContainer.innerHTML = paginatedProducts
+    productsContainer.innerHTML = products
       .map((product) => createProductCard(product))
       .join("");
-
-      setupPagination(products.length);
   } else {
     console.error("Products container not found"); // Debug error
   }
-}
-
-function setupPagination(totalProducts) {
-  const totalPages = Math.ceil(totalProducts / PRODUCTS_PER_PAGE);
-  const paginationContainer = document.querySelector(".product__pages div");
-
-  paginationContainer.innerHTML = '';
-  
-  // Generar botones de página
-  for (let i = 1; i <= totalPages; i++) {
-    const pageButton = document.createElement('span');
-    pageButton.classList.add('product__pag');
-    pageButton.textContent = i;
-    pageButton.addEventListener('click', () => {
-      currentPage = i;
-      initProducts(); // Re-renderizar con nueva página
-    });
-
-    paginationContainer.appendChild(pageButton);
-  }
-
-  // Añadir botón de siguiente
-  const nextButton = document.createElement('span');
-  nextButton.classList.add('product__pag');
-  nextButton.innerHTML = '&#8594;';
-  nextButton.addEventListener('click', () => {
-    if (currentPage < totalPages) {
-      currentPage++;
-      initProducts();
-    }
-  });
-
-  paginationContainer.appendChild(nextButton);
-}
+}     
 
 function renderProducts(products, status) {
   const containerId = status === "featured" ? "featured-container" : "new-arrival-container";

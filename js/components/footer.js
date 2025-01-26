@@ -3,7 +3,7 @@ export function createFooter() {
     <footer class="footer section">
       <div class="footer__container bd-grid">
         <div class="footer__box">
-          <h3 class="footer__title">SARA</h3>
+          <h3 class="footer__title">HOOZAV</h3>
           <p class="footer__deal">Products store</p>
           <a href="#"><img src="img/footerstore1.png" alt="" class="footer__store"/></a>
           <a href="#"><img src="img/footerstore2.png" alt="" class="footer__store"/></a>
