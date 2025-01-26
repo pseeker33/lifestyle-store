@@ -161,9 +161,20 @@ img {
 .nav__link:hover {
   color: var(--second-color);
 }
-.nav__logo {
+
+.nav__logo h1 {
   font-weight: var(--font-bold);
+  color: var(--black); /* Define un color base para el texto */
+  font-size: 1.3rem; /* Ajusta el tamaño según sea necesario */
 }
+
+.nav__logo span {
+  color: var(--second-color); /* Resalta la parte específica del texto */
+}
+
+/* .nav__logo {
+  font-weight: var(--font-bold);
+} */
 .nav__cart {
   font-size: 1.5rem;
   margin-right: var(--mb-2);

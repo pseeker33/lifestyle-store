@@ -3,8 +3,10 @@ export function createHeader(currentPage = 'index') {
     <header class="l-header">
       <nav class="nav bd-grid">
         <div>
-          <a href="index.html" class="nav__logo">SARA</a>
-        </div>
+          <a href="index.html" class="nav__logo">
+            <h1>H<span>OO</span>Z<span>A</span>V</h1>
+          </a>
+        </div>        
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
             <li class="nav__item">
