@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Headphone One Black",
+      "price": 29,
+      "category": "electronics",
+      "image": "img/feature1.png",
+      "status": "featured"
+    },
+    {
+      "id": 2,
+      "name": "Speaker Beats Pill",
+      "price": 199,
+      "category": "audio",
+      "image": "img/feature2.png",
+      "status": "featured"
+    },
+    {
+      "id": 3,
+      "name": "Apple Air Pod",
+      "price": 122,
+      "category": "electronics",
+      "image": "img/feature3.png",
+      "status": "featured"
+    },
+    {
+      "id": 4,
+      "name": "Smartwatch F9",
+      "price": 89,
+      "category": "wearables",
+      "image": "img/feature4.png",
+      "status": "featured"
+    },
+    {
+      "id": 5,
+      "name": "Wireless Earbuds",
+      "price": 79,
+      "category": "audio",
+      "image": "img/new1.png",
+      "status": "new"
+    },
+    {
+      "id": 6,
+      "name": "Portable Speaker",
+      "price": 49,
+      "category": "audio",
+      "image": "img/new2.png",
+      "status": "new"
+    },
+    {
+      "id": 7,
+      "name": "Gaming Headset",
+      "price": 99,
+      "category": "audio",
+      "image": "img/new3.png",
+      "status": "new"
+    },
+    {
+      "id": 8,
+      "name": "Smart Glasses",
+      "price": 299,
+      "category": "wearables",
+      "image": "img/new4.png",
+      "status": "new"
+    },
+    {
+      "id": 9,
+      "name": "Smartwatch Lite",
+      "price": 69,
+      "category": "wearables",
+      "image": "img/new5.png",
+      "status": "new"
+    },
+    {
+      "id": 10,
+      "name": "Noise Cancelling Headphones",
+      "price": 199,
+      "category": "electronics",
+      "image": "img/new6.png",
+      "status": "new"
+    }
+  ]
+}

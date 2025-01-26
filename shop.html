@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ===== BOXICONS ===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>SARA Shop - All Products</title>
+  </head>
+  <body class="shop-page">
+    <!--===== HEADER =====-->
+    <div id="header"></div>
+
+    <main class="l-main">
+      <div class="shop-container bd-grid">
+        <!-- Filter Section -->
+        <aside class="filter-section">
+          <h3 class="filter-title">Filter Products</h3>
+          <select id="category-filter">
+            <option value="all">All Categories</option>
+            <option value="electronics">Electronics</option>
+            <option value="audio">Audio</option>
+            <option value="wearables">Wearables</option>
+          </select>
+    
+          <select id="price-filter">
+            <option value="all">All Prices</option>
+            <option value="0-50">$0 - $50</option>
+            <option value="50-100">$50 - $100</option>
+            <option value="100-200">$100 - $200</option>
+          </select>
+    
+          <select id="type-filter">
+            <option value="all">All Types</option>
+            <option value="featured">Featured</option>
+            <option value="new">New</option>
+          </select>
+    
+          <select id="status-filter">
+            <option value="all">All Status</option>
+            <option value="new">New</option>
+            <option value="trending">Trending</option>
+          </select>
+        </aside>
+    
+        <!-- Products Section -->
+            <div class="featured__container bd-grid" id="products-container">
+              <!-- Products will be dynamically inserted here -->
+            </div>
+            <div class="product__pages bd-grid">
+              <div>
+                <span class="product__pag">1</span>
+                <span class="product__pag">2</span>
+                <span class="product__pag">3</span>
+                <span class="product__pag">4</span>
+                <span class="product__pag">&#8594;</span>
+              </div>
+            </div>
+        </section>
+      </div>
+
+
+
+        
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <div id="footer"></div>
+
+    <!--===== MAIN JS =====-->
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
