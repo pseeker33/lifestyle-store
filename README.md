@@ -5,7 +5,7 @@
     
 </p>
 
-Welcome to the GitHub repository for my modern e-commerce platform designed for selling accessories. Built with HTML, CSS, and vanilla JavaScript, this project provides an elegant and user-friendly shopping experience.
+Welcome to the GitHub repository for my modern, responsive e-commerce platform for branded accessories. It offers an elegant and user-friendly shopping experience, built with HTML, CSS, and vanilla JavaScript.
 
 ## Features Implemented
 
