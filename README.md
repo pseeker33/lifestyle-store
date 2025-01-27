@@ -1,4 +1,4 @@
-# <h1 align=center> **`E-commerce Project: Accessories Store`** </h1>
+# <h1 align=center> **`E-commerce Project: LifeStyle Store`** </h1>
 
 <p align="center">
     <img src="./img/portrait.png"  height=400>
