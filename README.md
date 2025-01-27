@@ -13,12 +13,14 @@ Welcome to the GitHub repository for my modern e-commerce platform designed for 
 - **Dynamic Product Rendering**: Products are dynamically loaded from a JSON file.
 - **Filter Section**: A sidebar filter for refining product searches.
 - **Product Filtering**: Allows filtering products by categories, price, and other attributes.
-- **Newsletter Subscription**: Logic for capturing user email subscriptions.
+- **Responsive Design**: Seamlessly adapted to various screen sizes, from desktops to mobile devices.
+
 
 ## To-Do List
 
 - **Cart Functionality**: Implement a feature to allow users to add products to a shopping cart.
 - **Enhanced Filtering**: Expand and refine the filtering functionality.
+- **Newsletter Subscription**: Logic for capturing user email subscriptions.
 
 ## File Structure
 
